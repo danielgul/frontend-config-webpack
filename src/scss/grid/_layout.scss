@@ -1,0 +1,22 @@
+html {
+    font-size: vw($screen-small-baseline);
+
+    @media screen and (min-width: $media-tablet) {
+        font-size: vw($screen-baseline);
+    }
+}
+
+header,
+main,
+footer,
+div {
+    box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+}
